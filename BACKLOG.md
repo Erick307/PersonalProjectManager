@@ -10,6 +10,7 @@ Approach: define the user experience first, then move to implementation.
 New workflows will be added as we discover them.
 
 - [ ] **First-time setup** — connecting Notion and Google Calendar (technical integration details to be resolved here)
+- [ ] **Setup skill: guided onboarding** — the current skill only detects connection status and prompts the user to connect; improve it with step-by-step instructions, verification, and troubleshooting for both Notion and Google Calendar
 - [ ] **First project creation** — the moment the user gets their first real value from the plugin
 
 ---
