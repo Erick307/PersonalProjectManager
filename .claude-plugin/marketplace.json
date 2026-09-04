@@ -1,0 +1,25 @@
+{
+  "name": "personal-project-manager",
+  "owner": {
+    "name": "Erick Silva",
+    "email": "ericksilva1988@gmail.com",
+    "url": "https://github.com/Erick307"
+  },
+  "description": "An AI-native project management co-pilot for Claude.",
+  "plugins": [
+    {
+      "name": "personal-project-manager",
+      "source": ".",
+      "displayName": "Personal Project Manager",
+      "description": "Manage projects, tasks, and your calendar from a single conversation. Connects Notion and Google Calendar.",
+      "author": {
+        "name": "Erick Silva",
+        "email": "ericksilva1988@gmail.com"
+      },
+      "homepage": "https://github.com/Erick307/PersonalProjectManager",
+      "repository": "https://github.com/Erick307/PersonalProjectManager",
+      "license": "MIT",
+      "keywords": ["project-management", "notion", "calendar", "productivity"]
+    }
+  ]
+}

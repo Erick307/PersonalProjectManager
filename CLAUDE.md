@@ -10,6 +10,10 @@ A record of every file in this project and its purpose. Keep this updated whenev
 | `BACKLOG.md` | Living backlog of everything that needs to be defined, designed, or built |
 | `CLAUDE.md` | This file — instructions and file index for Claude |
 | `workflows/INDEX.md` | Index of all workflows with their status |
+| `.claude-plugin/plugin.json` | Plugin manifest — name, version, author, keywords |
+| `.claude-plugin/marketplace.json` | Marketplace manifest — makes this repo installable as a Claude plugin marketplace |
+| `.mcp.json` | MCP server declarations — Notion OAuth connection |
+| `skills/setup/SKILL.md` | First-time setup skill — connects Notion and Google Calendar |
 
 ## General Instructions
 

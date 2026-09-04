@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "personal-project-manager",
+  "displayName": "Personal Project Manager",
+  "version": "0.1.0",
+  "description": "An AI-native project management co-pilot. Manage projects, tasks, and your calendar from a single conversation.",
+  "author": {
+    "name": "Erick Silva",
+    "email": "ericksilva1988@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["project-management", "notion", "calendar", "productivity", "tasks", "scheduling"]
+}

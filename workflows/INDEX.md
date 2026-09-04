@@ -4,5 +4,5 @@ All workflows in this plugin. Each workflow is defined from the user experience 
 
 | Workflow | File | Status |
 |---|---|---|
-| First-time setup | `first-time-setup.md` | Pending |
+| First-time setup | `skills/setup/SKILL.md` | In progress — proof of concept built |
 | First project creation | `first-project-creation.md` | Pending |

@@ -39,3 +39,4 @@ Clear definitions that will shape every other decision.
 - [ ] **Roles & permissions** — within a shared project, what can each role do? How does the assistant enforce this?
 - [ ] **State & memory** — the orchestrator needs to track state across conversations; where does this live and how is it structured?
 - [ ] **Plugin distribution & updates** — how does a user install this on Claude vs ChatGPT, and how do they receive updates?
+- [ ] **Resumable workflows** — the orchestrator must track setup (and future workflow) progress across sessions so the user can complete configuration in multiple sittings without starting over. Decide where state lives and how the assistant detects and resumes an in-progress flow.
