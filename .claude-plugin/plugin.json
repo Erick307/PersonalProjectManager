@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "personal-project-manager",
   "displayName": "Personal Project Manager",
   "version": "0.1.0",
@@ -10,5 +9,5 @@
   },
   "license": "MIT",
   "keywords": ["project-management", "notion", "calendar", "productivity", "tasks", "scheduling"],
-  "mcpServers": "../.mcp.json"
+  "mcpServers": "./.mcp.json"
 }

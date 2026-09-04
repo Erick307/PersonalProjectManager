@@ -9,7 +9,7 @@ A living document of everything that needs to be defined, designed, or built. It
 Approach: define the user experience first, then move to implementation.
 New workflows will be added as we discover them.
 
-- [ ] **First-time setup** — connecting Notion and Google Calendar (technical integration details to be resolved here)
+- [x] **First-time setup** — connecting Notion and Google Calendar (technical integration details to be resolved here)
 - [ ] **Setup skill: guided onboarding** — the current skill only detects connection status and prompts the user to connect; improve it with step-by-step instructions, verification, and troubleshooting for both Notion and Google Calendar
 - [ ] **First project creation** — the moment the user gets their first real value from the plugin
 
@@ -35,9 +35,19 @@ Clear definitions that will shape every other decision.
 
 ---
 
+## Plugin Installation
+
+How users install and activate the plugin on each supported platform.
+
+- [ ] **Claude Code — plugin installation** — define the installation steps for Claude Code users (CLI-based, `claude mcp add`, plugin manifest discovery)
+- [ ] **Claude.ai (co-work) — plugin installation** — define the installation steps for Claude.ai web users (UI-based onboarding, no CLI access)
+- [ ] **ChatGPT — plugin installation** — define the installation steps for ChatGPT users (Actions integration, OpenAPI spec, GPT configuration)
+
+---
+
 ## Platform Readiness
 
-- [ ] **Claude Code — complete plugin manifest** — `plugin.json` is missing `skills` and `mcpServers` declarations; Claude Code won't discover the skill or MCP config without them
+- [x] **Claude Code — complete plugin manifest** — `plugin.json` is missing `skills` and `mcpServers` declarations; Claude Code won't discover the skill or MCP config without them
 - [ ] **Claude.ai — separate setup path** — the setup skill tells users to run `claude mcp add` (CLI only); claude.ai users need a web-UI-based onboarding path instead
 - [ ] **ChatGPT — build Actions integration** — nothing exists yet; needs an OpenAPI spec describing available actions and the underlying endpoints to back them
 

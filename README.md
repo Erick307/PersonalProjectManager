@@ -34,6 +34,28 @@ When tasks are assigned or deadlines approach, the assistant helps the user fit 
 - **Guided onboarding** — the orchestrator walks new users through connecting Notion, setting up their calendar, and creating their first project
 - **Ongoing workflow guidance** — beyond setup, the orchestrator continuously surfaces what needs attention and suggests next steps
 
+## Installation
+
+### Claude Code
+
+**From the chat interface** (recommended):
+
+```
+/plugin marketplace add Erick307/PersonalProjectManager
+/plugin install personal-project-manager
+```
+
+Or type `/plugin` to open the Discover tab and browse plugins visually.
+
+**From the terminal:**
+
+```bash
+claude plugin marketplace add github:Erick307/PersonalProjectManager
+claude plugin install personal-project-manager
+```
+
+By default the plugin installs at user scope (available across all your projects). To install for the current project only, add `--scope project` to the install command.
+
 ## Compatibility
 
 | Assistant | Integration method | Status |
