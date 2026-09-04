@@ -34,6 +34,14 @@ Clear definitions that will shape every other decision.
 
 ---
 
+## Platform Readiness
+
+- [ ] **Claude Code — complete plugin manifest** — `plugin.json` is missing `skills` and `mcpServers` declarations; Claude Code won't discover the skill or MCP config without them
+- [ ] **Claude.ai — separate setup path** — the setup skill tells users to run `claude mcp add` (CLI only); claude.ai users need a web-UI-based onboarding path instead
+- [ ] **ChatGPT — build Actions integration** — nothing exists yet; needs an OpenAPI spec describing available actions and the underlying endpoints to back them
+
+---
+
 ## Architecture & Open Questions
 
 - [ ] **Roles & permissions** — within a shared project, what can each role do? How does the assistant enforce this?

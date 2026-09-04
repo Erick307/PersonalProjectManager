@@ -9,5 +9,6 @@
     "email": "ericksilva1988@gmail.com"
   },
   "license": "MIT",
-  "keywords": ["project-management", "notion", "calendar", "productivity", "tasks", "scheduling"]
+  "keywords": ["project-management", "notion", "calendar", "productivity", "tasks", "scheduling"],
+  "mcpServers": "../.mcp.json"
 }
