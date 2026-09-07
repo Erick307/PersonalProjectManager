@@ -41,6 +41,7 @@ How users install and activate the plugin on each supported platform.
 
 - [x] **Claude Code — plugin installation** — `/plugin marketplace add` + `/plugin install`, documented in README
 - [x] **Claude Cowork — plugin installation** — same plugin manifests, installed via Customize → Plugins → Add marketplace in the UI (no CLI, no separate packaging needed), documented in README
+- [x] **Claude Cowork — compatibility check** — verified plugin/MCP/skill behavior matches Claude Code (same built-in Google Calendar/Drive connectors, same manifest schema); fixed a real bug found along the way: `.mcp.json`'s `notion` entry was missing `"type": "http"`, which silently broke the connection on both platforms
 
 ---
 

@@ -2,7 +2,6 @@
 name: setup
 description: First-time setup — connect Notion and Google Calendar to activate the Personal Project Manager. Run this before creating your first project.
 effort: low
-maxTurns: 5
 ---
 
 # Personal Project Manager — First-Time Setup
