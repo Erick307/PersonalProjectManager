@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "personal-project-manager",
-      "source": ".",
+      "source": "./",
       "displayName": "Personal Project Manager",
       "description": "Manage projects, tasks, and your calendar from a single conversation. Connects Notion and Google Calendar.",
       "author": {
@@ -19,6 +19,7 @@
       "homepage": "https://github.com/Erick307/PersonalProjectManager",
       "repository": "https://github.com/Erick307/PersonalProjectManager",
       "license": "MIT",
+      "category": "productivity",
       "keywords": ["project-management", "notion", "calendar", "productivity"]
     }
   ]

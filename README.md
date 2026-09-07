@@ -38,23 +38,19 @@ When tasks are assigned or deadlines approach, the assistant helps the user fit 
 
 ### Claude Code
 
-**From the chat interface** (recommended):
+From the chat interface, run these two commands:
 
 ```
 /plugin marketplace add Erick307/PersonalProjectManager
-/plugin install personal-project-manager
+/plugin install personal-project-manager@personal-project-manager
 ```
 
-Or type `/plugin` to open the Discover tab and browse plugins visually.
+### Claude Cowork
 
-**From the terminal:**
-
-```bash
-claude plugin marketplace add github:Erick307/PersonalProjectManager
-claude plugin install personal-project-manager
-```
-
-By default the plugin installs at user scope (available across all your projects). To install for the current project only, add `--scope project` to the install command.
+1. Open **Customize → Plugins** in the sidebar.
+2. Click **Add marketplace** and enter `Erick307/PersonalProjectManager`.
+3. Find **Personal Project Manager** in the list and click **Install**.
+4. Start a conversation — the assistant checks your Notion and Google Calendar connections and prompts you to connect anything missing.
 
 ## Compatibility
 

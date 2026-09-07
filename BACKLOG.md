@@ -39,8 +39,8 @@ Clear definitions that will shape every other decision.
 
 How users install and activate the plugin on each supported platform.
 
-- [ ] **Claude Code — plugin installation** — define the installation steps for Claude Code users (CLI-based, `claude mcp add`, plugin manifest discovery)
-- [ ] **Claude co-work — plugin installation** — define the installation steps for Claude co-work users (UI-based onboarding, no CLI access)
+- [x] **Claude Code — plugin installation** — `/plugin marketplace add` + `/plugin install`, documented in README
+- [x] **Claude Cowork — plugin installation** — same plugin manifests, installed via Customize → Plugins → Add marketplace in the UI (no CLI, no separate packaging needed), documented in README
 
 ---
 
