@@ -40,22 +40,14 @@ Clear definitions that will shape every other decision.
 How users install and activate the plugin on each supported platform.
 
 - [ ] **Claude Code — plugin installation** — define the installation steps for Claude Code users (CLI-based, `claude mcp add`, plugin manifest discovery)
-- [ ] **Claude.ai (co-work) — plugin installation** — define the installation steps for Claude.ai web users (UI-based onboarding, no CLI access)
-- [ ] **ChatGPT — plugin installation** — define the installation steps for ChatGPT users (Actions integration, OpenAPI spec, GPT configuration)
+- [ ] **Claude co-work — plugin installation** — define the installation steps for Claude co-work users (UI-based onboarding, no CLI access)
 
 ---
 
-## Platform Readiness
-
-- [x] **Claude Code — complete plugin manifest** — `plugin.json` is missing `skills` and `mcpServers` declarations; Claude Code won't discover the skill or MCP config without them
-- [ ] **Claude.ai — separate setup path** — the setup skill tells users to run `claude mcp add` (CLI only); claude.ai users need a web-UI-based onboarding path instead
-- [ ] **ChatGPT — build Actions integration** — nothing exists yet; needs an OpenAPI spec describing available actions and the underlying endpoints to back them
-
----
 
 ## Architecture & Open Questions
 
 - [ ] **Roles & permissions** — within a shared project, what can each role do? How does the assistant enforce this?
 - [ ] **State & memory** — the orchestrator needs to track state across conversations; where does this live and how is it structured?
-- [ ] **Plugin distribution & updates** — how does a user install this on Claude vs ChatGPT, and how do they receive updates?
+- [ ] **Plugin distribution & updates** — how does a user install this on Claude, and how do they receive updates?
 - [ ] **Resumable workflows** — the orchestrator must track setup (and future workflow) progress across sessions so the user can complete configuration in multiple sittings without starting over. Decide where state lives and how the assistant detects and resumes an in-progress flow.
