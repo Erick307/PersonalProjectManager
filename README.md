@@ -30,7 +30,7 @@ When tasks are assigned or deadlines approach, the assistant helps the user fit 
 - **Multi-project management** — handle multiple projects simultaneously from a single chat interface
 - **Project collaboration** — projects can be shared with other people, leveraging Notion's native sharing and permission system
 - **Personal calendar integration** — starts with Google Calendar, with a clear path to support Apple Calendar (CalDAV), Outlook/Microsoft 365, and others
-- **Notion as the knowledge base** — all project data, documents, and context live in Notion, connected via MCP
+- **Notion as the knowledge base** — all project data, documents, and context live in Notion, connected via Claude's built-in Notion connector
 - **Guided onboarding** — the orchestrator walks new users through connecting Notion, setting up their calendar, and creating their first project
 - **Ongoing workflow guidance** — beyond setup, the orchestrator continuously surfaces what needs attention and suggests next steps
 
@@ -50,7 +50,7 @@ From the chat interface, run these two commands:
 1. Open **Customize → Plugins** in the sidebar.
 2. Click **Add marketplace** and enter `Erick307/PersonalProjectManager`.
 3. Find **Personal Project Manager** in the list and click **Install**.
-4. Start a conversation — the assistant checks your Notion and Google Calendar connections and prompts you to connect anything missing.
+4. Start a conversation — the assistant checks your Notion and Google Calendar connections (both are Claude's built-in connectors, enabled under Settings → Connectors) and prompts you to enable anything missing.
 
 ## Compatibility
 
@@ -62,8 +62,8 @@ From the chat interface, run these two commands:
 
 ## Integrations
 
-- **Notion** — project knowledge base, via Notion MCP server
-- **Google Calendar** — personal scheduling layer (starting point)
+- **Notion** — project knowledge base, via Claude's built-in Notion connector
+- **Google Calendar** — personal scheduling layer, via Claude's built-in Google Calendar connector (starting point)
 - More calendars and tools to be added over time
 
 ## Status

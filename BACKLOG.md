@@ -10,7 +10,7 @@ Approach: define the user experience first, then move to implementation.
 New workflows will be added as we discover them.
 
 - [x] **First-time setup** — connecting Notion and Google Calendar (technical integration details to be resolved here)
-- [ ] **Setup skill: guided onboarding** — the current skill only detects connection status and prompts the user to connect; improve it with step-by-step instructions, verification, and troubleshooting for both Notion and Google Calendar
+- [ ] **Setup skill: guided onboarding** — step-by-step connect instructions now given for both Notion and Google Calendar (same Settings → Connectors flow for both); still need re-verification after the user connects and troubleshooting for failed/stuck authorization
 - [ ] **First project creation** — the moment the user gets their first real value from the plugin
 
 ---
@@ -42,6 +42,7 @@ How users install and activate the plugin on each supported platform.
 - [x] **Claude Code — plugin installation** — `/plugin marketplace add` + `/plugin install`, documented in README
 - [x] **Claude Cowork — plugin installation** — same plugin manifests, installed via Customize → Plugins → Add marketplace in the UI (no CLI, no separate packaging needed), documented in README
 - [x] **Claude Cowork — compatibility check** — verified plugin/MCP/skill behavior matches Claude Code (same built-in Google Calendar/Drive connectors, same manifest schema); fixed a real bug found along the way: `.mcp.json`'s `notion` entry was missing `"type": "http"`, which silently broke the connection on both platforms
+- [x] **Notion/Calendar UX parity** — Notion was previously bundled via `.mcp.json` (`mcp.notion.com`), giving it a smoother inline-OAuth-URL experience than Google Calendar (which has no shared multi-tenant client — Google's official Calendar MCP server requires each user to register their own GCP OAuth credentials). Rather than upgrade Calendar to match, we downgraded Notion: removed `.mcp.json` and `plugin.json`'s `mcpServers` entry, and now rely on Claude's built-in Notion connector (Settings → Connectors) just like Calendar. Trade-off accepted deliberately: consistency of experience over the smoother but asymmetric one-click Notion flow.
 
 ---
 
