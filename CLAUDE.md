@@ -12,7 +12,7 @@ A record of every file in this project and its purpose. Keep this updated whenev
 | `workflows/INDEX.md` | Index of all workflows with their status |
 | `.claude-plugin/plugin.json` | Plugin manifest — name, version, author, keywords |
 | `.claude-plugin/marketplace.json` | Marketplace manifest — makes this repo installable as a Claude plugin marketplace |
-| `skills/setup/SKILL.md` | First-time setup skill — checks Notion and Google Calendar, both Claude's built-in connectors (Settings → Connectors); the plugin declares neither itself |
+| `skills/setup/SKILL.md` | First-time setup skill — checks Notion and Google Calendar, both Claude's built-in connectors (Customize → Connectors); gives surface-specific instructions since Claude Code has no in-app connectors UI unlike Claude.ai/Desktop/Cowork |
 
 ## General Instructions
 

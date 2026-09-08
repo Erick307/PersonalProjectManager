@@ -50,7 +50,7 @@ From the chat interface, run these two commands:
 1. Open **Customize → Plugins** in the sidebar.
 2. Click **Add marketplace** and enter `Erick307/PersonalProjectManager`.
 3. Find **Personal Project Manager** in the list and click **Install**.
-4. Start a conversation — the assistant checks your Notion and Google Calendar connections (both are Claude's built-in connectors, enabled under Settings → Connectors) and prompts you to enable anything missing.
+4. Start a conversation — the assistant checks your Notion and Google Calendar connections (both are Claude's built-in connectors, enabled under Customize → Connectors) and prompts you to enable anything missing. In Claude Code, connectors are managed on claude.ai/Desktop rather than in the CLI itself — the assistant explains this if you're missing one there.
 
 ## Compatibility
 
